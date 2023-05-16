@@ -12,11 +12,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Controller {
+public class HolidayCalculatorController {
     private final CalculatorService calculatorService;
 
     @Autowired
-    public Controller(CalculatorService calculatorService) {
+    public HolidayCalculatorController(CalculatorService calculatorService) {
         this.calculatorService = calculatorService;
     }
 
